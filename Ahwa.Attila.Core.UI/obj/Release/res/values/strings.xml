@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Attila</string>
+  <string name="Loading">Loading</string>
+
+  <!--MARKET-->
+  <string name="menu_add_market">Add Market</string>
+  <string name="menu_save_market">Save Market</string>
+  <string name="menu_change_market">Change Market</string>
+  <string name="menu_delete_market">Delete Market</string>
+  <string name="label_market_name">Name</string>
+  <string name="label_market_latitude">Latitude</string>
+  <string name="label_market_longitude">Longitude</string>
+  <string name="label_show_on_map">Show on map</string>
+  <string name="label_get_coordinates">Get coordinates</string>
+
+  <!--CATEGORY-->
+  <string name="menu_add_category">Add category</string>
+  <string name="menu_save_category">Save category</string>
+  <string name="menu_change_category">Change category</string>
+  <string name="menu_delete_category">Delete category</string>
+  <string name="menu_list_category">Categories</string>
+  <string name="label_category_name">Name</string>
+
+  <!--PRODUCT-->
+  <string name="menu_add_product">Add product</string>
+  <string name="menu_save_product">Save product</string>
+  <string name="menu_change_product">Change product</string>
+  <string name="menu_delete_product">Delete product</string>
+  <string name="menu_list_product">Products</string>
+  <string name="label_product_name">Name</string>
+  <string name="label_product_barcodevalue">Code</string>
+  <string name="label_product_barcodebutton">Read code</string>
+  <string name="label_product_category">Category</string>
+  <string name="label_product_takepicturebutton">Take a picture</string>
+  <string name="label_product_browsepicturebutton">Browse for image</string>
+</resources>

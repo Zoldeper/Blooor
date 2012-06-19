@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attila="http://schemas.android.com/apk/res/ahwa.attila"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_name"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            attila:MvxBind="{&apos;Text&apos;:{&apos;Path&apos;:&apos;Model.ProductName&apos;}}" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_category"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+      <cirrious.mvvmcross.binding.android.views.MvxBindableSpinner
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          attila:MvxSpinnerTemplate="@layout/categorylistitem"                      
+          attila:MvxBind="{'ItemsSource':{'Path':'Categories'}, 'SelectedItem':{'Path':'SelectedCategory','Mode':'TwoWay'}}"/>
+      <!--attila:MvxBind="{'ItemsSource':{'Path':'Categories'}, 'ItemSelected':{'Path':'SelectCategoryCommand'}, 'SelectedItem':{'Path':'SelectedCategory','Mode':'TwoWay'}}"-->
+      <!--<Spinner
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          attila:MvxBind="{'ItemsSource':{'Path':'Categories'}}"
+          
+          />-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_barcodevalue"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            attila:MvxBind="{&apos;Text&apos;:{&apos;Path&apos;:&apos;Model.BarCode&apos;}}" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_barcodebutton"
+            attila:MvxBind="{&apos;Click&apos;:{&apos;Path&apos;:&apos;ReadBarCodeCommand&apos;}}" />
+      <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            attila:MvxBind="{&apos;Text&apos;:{&apos;Path&apos;:&apos;Model.ImagePath&apos;}}" />
+      <cirrious.mvvmcross.binding.android.views.MvxHttpImageView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    attila:MvxBind="{'HttpImageUrl':{'Path':'Model.ImagePath', 'Converter':'FilePath', 'Mode':'TwoWay'}}"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_takepicturebutton"
+            attila:MvxBind="{&apos;Click&apos;:{&apos;Path&apos;:&apos;TakePictureCommand&apos;}}" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_browsepicturebutton"
+            attila:MvxBind="{&apos;Click&apos;:{&apos;Path&apos;:&apos;BrowsePictureCommand&apos;}}" />
+    </LinearLayout>
+</ScrollView>

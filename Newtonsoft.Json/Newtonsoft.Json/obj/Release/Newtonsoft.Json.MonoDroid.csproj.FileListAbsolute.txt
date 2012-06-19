@@ -1,0 +1,10 @@
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\bin\Release\Newtonsoft.Json.MonoDroid.dll
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\bin\Release\Newtonsoft.Json.MonoDroid.pdb
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\bin\Release\Newtonsoft.Json.MonoDroid.apk
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\bin\Release\Newtonsoft.Json.MonoDroid-Signed.apk
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\obj\Release\Newtonsoft.Json.MonoDroid.dll
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\obj\Release\Newtonsoft.Json.MonoDroid.pdb
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\obj\Release\android\bin\Newtonsoft.Json.MonoDroid.apk
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\obj\Release\R.cs.flag
+C:\Projects\slodge-MvvmCross-ff7fee9\Library\Newtonsoft.Json\Newtonsoft.Json\obj\Release\uploadflags.txt

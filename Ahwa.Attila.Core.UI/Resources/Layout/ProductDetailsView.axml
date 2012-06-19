@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attila="http://schemas.android.com/apk/res/ahwa.attila"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <LinearLayout android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+    >
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_product_name"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+      />
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="6dip"
+      android:layout_marginTop="6dip"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      attila:MvxBind="{'Text':{'Path':'Model.ProductName'}}"
+      />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_product_category"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="6dip"
+          android:layout_marginTop="6dip"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          attila:MvxBind="{'Text':{'Path':'Model.CategoryID', 'Converter': 'CategoryToID'}}" />
+
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/label_product_barcodevalue"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      />
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="6dip"
+      android:layout_marginTop="6dip"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      attila:MvxBind="{'Text':{'Path':'Model.BarCode'}}"/>
+
+    <cirrious.mvvmcross.binding.android.views.MvxHttpImageView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:padding="4dp"
+      attila:MvxBind="{'HttpImageUrl':{'Path':'Model.ImagePath', 'Converter':'FilePath'}}"    />
+  </LinearLayout>
+</ScrollView>

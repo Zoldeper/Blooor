@@ -1,0 +1,12 @@
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\bin\Release\Cirrious.MvvmCross.Android.dll
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\bin\Release\Cirrious.MvvmCross.Android.pdb
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\bin\Release\Cirrious.MvvmCross.Android.apk
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\bin\Release\Cirrious.MvvmCross.Android-Signed.apk
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\obj\Release\Cirrious.MvvmCross.Android.dll
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\obj\Release\Cirrious.MvvmCross.Android.pdb
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\obj\Release\android\bin\Cirrious.MvvmCross.Android.apk
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\obj\Release\R.cs.flag
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\obj\Release\uploadflags.txt
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\bin\Release\Newtonsoft.Json.MonoDroid.dll
+C:\Projects\slodge-MvvmCross-ff7fee9\Cirrious\Cirrious.MvvmCross\bin\Release\Newtonsoft.Json.MonoDroid.pdb

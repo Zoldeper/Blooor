@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attila="http://schemas.android.com/apk/res/ahwa.attila"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <cirrious.mvvmcross.binding.android.views.MvxBindableListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        attila:MvxItemTemplate="@layout/categorylistitem"
+        attila:MvxBind="{'ItemsSource':{'Path':'Models'},'ItemClick':{'Path':'SelectCommand'}}"
+      />
+</LinearLayout>

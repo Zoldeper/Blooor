@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahwa.Attila.Core.Android", "Ahwa.Attila.Core.Android\Ahwa.Attila.Core.Android.csproj", "{332D01E1-CF1B-4454-9796-2AFD9E304C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahwa.Attila.UI.Android", "Ahwa.Attila.Core.UI\Ahwa.Attila.UI.Android.csproj", "{8936410F-B8C2-47B5-BFAE-F8576C484FC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{280491DD-1CB1-4573-A0A7-57CB7AD9DF97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameworkExtention", "FrameworkExtention", "{029179FE-9EBB-4A01-8301-4E9342C95EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahwa.MVVMCrossExtensions", "Ahwa.MVVMCrossExtentions\Ahwa.MVVMCrossExtensions.csproj", "{62ED89CF-F42B-49BA-B9A8-53FFE04AC65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.MvvmCross.Android", "Cirrious.MvvmCross\Cirrious.MvvmCross.Android.csproj", "{7A6BE137-D0F1-46A1-AE5C-81FAEEDDDF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.MvvmCross.Binding.Android", "Cirrious.MvvmCross.Binding\Cirrious.MvvmCross.Binding.Android.csproj", "{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.MonoDroid", "Newtonsoft.Json\Newtonsoft.Json\Newtonsoft.Json.MonoDroid.csproj", "{E6C3413C-919B-486D-8B6C-225CBD921B98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{332D01E1-CF1B-4454-9796-2AFD9E304C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332D01E1-CF1B-4454-9796-2AFD9E304C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332D01E1-CF1B-4454-9796-2AFD9E304C7D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{332D01E1-CF1B-4454-9796-2AFD9E304C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332D01E1-CF1B-4454-9796-2AFD9E304C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8936410F-B8C2-47B5-BFAE-F8576C484FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8936410F-B8C2-47B5-BFAE-F8576C484FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8936410F-B8C2-47B5-BFAE-F8576C484FC8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8936410F-B8C2-47B5-BFAE-F8576C484FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8936410F-B8C2-47B5-BFAE-F8576C484FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8936410F-B8C2-47B5-BFAE-F8576C484FC8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{62ED89CF-F42B-49BA-B9A8-53FFE04AC65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62ED89CF-F42B-49BA-B9A8-53FFE04AC65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62ED89CF-F42B-49BA-B9A8-53FFE04AC65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62ED89CF-F42B-49BA-B9A8-53FFE04AC65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6BE137-D0F1-46A1-AE5C-81FAEEDDDF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6BE137-D0F1-46A1-AE5C-81FAEEDDDF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6BE137-D0F1-46A1-AE5C-81FAEEDDDF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6BE137-D0F1-46A1-AE5C-81FAEEDDDF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A6BE137-D0F1-46A1-AE5C-81FAEEDDDF02} = {280491DD-1CB1-4573-A0A7-57CB7AD9DF97}
+		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9} = {280491DD-1CB1-4573-A0A7-57CB7AD9DF97}
+		{E6C3413C-919B-486D-8B6C-225CBD921B98} = {280491DD-1CB1-4573-A0A7-57CB7AD9DF97}
+		{62ED89CF-F42B-49BA-B9A8-53FFE04AC65F} = {029179FE-9EBB-4A01-8301-4E9342C95EAE}
+	EndGlobalSection
+EndGlobal

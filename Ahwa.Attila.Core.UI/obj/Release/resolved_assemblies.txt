@@ -1,0 +1,6 @@
+C:\Projects\Attila\Ahwa.Attila.Core.UI\bin\Release\Blooor.dll
+C:\Projects\Attila\Ahwa.Attila.Core.UI\bin\Release\Cirrious.MvvmCross.Android.dll
+C:\Projects\Attila\Ahwa.Attila.Core.UI\bin\Release\Newtonsoft.Json.MonoDroid.dll
+C:\Projects\Attila\Ahwa.Attila.Core.UI\bin\Release\Cirrious.MvvmCross.Binding.Android.dll
+C:\Projects\Attila\Ahwa.Attila.Core.UI\bin\Release\Ahwa.Attila.Core.Android.dll
+C:\Projects\Attila\Ahwa.Attila.Core.UI\bin\Release\Ahwa.MVVMCrossExtensions.dll
