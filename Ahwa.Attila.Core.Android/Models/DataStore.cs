@@ -138,12 +138,11 @@ namespace Ahwa.Attila.Core.Android.Models
         }
         #endregion
 
-        public string SaveImage(string fileName, Stream stream)
+        public string SaveImage(Stream stream)
         {
             try
             {
-
-                fileName = string.Format(ImageFileName, fileName); 
+                var fileName = string.Format(ImageFileName, Guid.NewGuid().ToString()); 
                 var fileService = this.GetService<IMvxSimpleFileStoreService>();
                 fileName = System.IO.Path.Combine(ImageDirectoryName, fileName);
                 fileService.WriteFile(fileName, (fStream) =>

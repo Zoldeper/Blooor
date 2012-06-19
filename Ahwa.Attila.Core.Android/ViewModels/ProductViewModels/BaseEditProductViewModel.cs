@@ -99,9 +99,15 @@ namespace Ahwa.Attila.Core.Android.ViewModels.ProductViewModels
 
         private void SaveImage(Stream image)
         {
-            var oldImage = Model.ImagePath;            
-            Model.ImagePath = DataStore.SaveImage(Model.ID, image);
-            DataStore.DeleteImage(oldImage);            
+            var oldImage = Model.ImagePath;
+            DataStore.DeleteImage(Model.CategoryID);
+            var newImage = DataStore.SaveImage(image);      
+            if(newImage != "")
+            {
+                Model.ImagePath = newImage;
+                DataStore.UpdateObject<Product>(Model);
+                DataStore.DeleteImage(oldImage);
+            }
         }
 
         private void ImageAssumeCancelled()

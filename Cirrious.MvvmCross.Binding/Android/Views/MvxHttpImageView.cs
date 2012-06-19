@@ -65,6 +65,7 @@ namespace Cirrious.MvvmCross.Binding.Android.Views
         private void ImageHelperOnImageChanged(object sender, MvxValueEventArgs<Bitmap> mvxValueEventArgs)
         {
             SetImageBitmap(mvxValueEventArgs.Value);
+            this.Invalidate();
         }
     }
 }
