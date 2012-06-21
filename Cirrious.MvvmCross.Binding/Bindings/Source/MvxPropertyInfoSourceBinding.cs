@@ -19,7 +19,7 @@ using Cirrious.MvvmCross.Interfaces.ServiceProvider;
 
 namespace Cirrious.MvvmCross.Binding.Bindings.Source
 {
-    public class MvxPropertyInfoSourceBinding : MvxBasePropertyInfoSourceBinding, IMvxServiceConsumer<IMvxViewDispatcherProvider>
+    public class MvxPropertyInfoSourceBinding : MvxBasePropertyInfoSourceBinding
     {
         private string _PropertyName;
 
@@ -74,8 +74,7 @@ namespace Cirrious.MvvmCross.Binding.Bindings.Source
 
             try
             {
-             this.GetService<IMvxViewDispatcherProvider>().Dispatcher.RequestMainThreadAction(()=>
-                 {
+             
                      if (PropertyInfo.PropertyType.IsGenericType && PropertyInfo.PropertyType.IsValueType)
                      {
                          var underlyingType = Nullable.GetUnderlyingType(PropertyInfo.PropertyType);
@@ -83,7 +82,7 @@ namespace Cirrious.MvvmCross.Binding.Bindings.Source
                      }
                      else
                          PropertyInfo.SetValue(Source, value, null);
-                 });
+             
             }
             catch (ThreadAbortException)
             {
