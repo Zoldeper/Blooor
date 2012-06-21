@@ -20,3 +20,14 @@ C:\Projects\Attila\Blooor\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\Newto
 C:\Projects\Attila\Blooor\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\android\bin\Newtonsoft.Json.MonoDroid.apk
 C:\Projects\Attila\Blooor\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\R.cs.flag
 C:\Projects\Attila\Blooor\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\uploadflags.txt
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\bin\Debug\Newtonsoft.Json.MonoDroid.dll
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\bin\Debug\Newtonsoft.Json.MonoDroid.pdb
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\bin\Debug\Newtonsoft.Json.MonoDroid.dll.mdb
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\bin\Debug\Newtonsoft.Json.MonoDroid.apk
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\bin\Debug\Newtonsoft.Json.MonoDroid-Signed.apk
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\Newtonsoft.Json.MonoDroid.dll
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\Newtonsoft.Json.MonoDroid.pdb
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\android\bin\Newtonsoft.Json.MonoDroid.apk
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\R.cs.flag
+C:\Projects\Blooor\Newtonsoft.Json\Newtonsoft.Json\obj\Debug\uploadflags.txt

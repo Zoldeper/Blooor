@@ -3,30 +3,31 @@ using Cirrious.MvvmCross.ViewModels;
 
 namespace Ahwa.Attila.Core.Android.Models
 {
-    public class ShoppingItem : MvxNotifyPropertyChanged
+    public class ShoppingItem : DataClassBase
     {
-        private int _ShoppingItemID;
+        private string _ShoppingItemName;
 
-        public int ShoppingItemID
+        public string ShoppingItemName
         {
-            get { return _ShoppingItemID; }
-            set { _ShoppingItemID = value; }
+            get { return _ShoppingItemName; }
+            set { _ShoppingItemName = value; FirePropertyChanged(() => ShoppingItemName); }
         }
+        
 
-        private int _CategoryID;
+        private string _CategoryID;
 
-        public int CategoryID
+        public string CategoryID
         {
             get { return _CategoryID; }
-            set { _CategoryID = value; }
+            set { _CategoryID = value; FirePropertyChanged(() => CategoryID); }
         }
 
-        private double _Quantity;
+        private float? _Quantity;
 
-        public double Quantity
+        public float? Quantity
         {
             get { return _Quantity; }
-            set { _Quantity = value; }
+            set { _Quantity = value; FirePropertyChanged(() => Quantity); }
         }
 
         private bool _IsPurchased;
@@ -34,34 +35,51 @@ namespace Ahwa.Attila.Core.Android.Models
         public bool IsPurchased
         {
             get { return _IsPurchased; }
-            set { _IsPurchased = value; }
+            set { _IsPurchased = value; FirePropertyChanged(() => IsPurchased); }
         }
 
-        private int _PurchasedProduct;
+        private string _PurchasedProduct;
         /// <summary>
         /// ProductID
         /// </summary>
-        public int PurchasedProduct
+        public string PurchasedProduct
         {
             get { return _PurchasedProduct; }
-            set { _PurchasedProduct = value; }
+            set { _PurchasedProduct = value; FirePropertyChanged(() => PurchasedProduct); }
         }
 
-        private int _PurchaseLocation;
+        private string _PurchaseLocation;
         /// <summary>
         /// MarketID
         /// </summary>
-        public int PurchaseLocation
+        public string PurchaseLocation
         {
             get { return _PurchaseLocation; }
-            set { _PurchaseLocation = value; }
+            set { _PurchaseLocation = value; FirePropertyChanged(() => PurchaseLocation); }
         }
 
-        private double _PurchasePrice;
-        public double PurchasePrice
+        private float _PurchasePrice;
+        public float PurchasePrice
         {
             get { return _PurchasePrice; }
-            set { _PurchasePrice = value; }
+            set { _PurchasePrice = value; FirePropertyChanged(() => PurchasePrice); }
+        }
+
+        public override void CloneFrom(object source)
+        {
+            var obj = source as ShoppingItem;
+            if (obj != null)
+            {
+                this.ID = obj.ID;
+                this.CategoryID = obj.CategoryID;
+                this.ShoppingItemName = obj.ShoppingItemName;
+                this.Quantity = obj.Quantity;
+                this.IsPurchased = obj.IsPurchased;
+                this.PurchasedProduct = obj.PurchasedProduct;
+                this.PurchaseLocation = obj.PurchaseLocation;
+                this.PurchasePrice = obj.PurchasePrice;
+            }
+
         }
     }
 }

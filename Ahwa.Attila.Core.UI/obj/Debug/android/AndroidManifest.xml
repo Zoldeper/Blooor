@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="ahwa.attila" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:targetSdkVersion="12" android:minSdkVersion="10" />
+  <application android:label="Blooor - Present for your birthday Brother" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="New market" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.market.MarketNewView" />
+    <activity android:label="Market editor" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.market.MarketEditView" />
+    <activity android:label="Market Info" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.market.MarketDetailsView" />
+    <activity android:label="New shopping item" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.shoppingitem.ShoppingItemNewView" />
+    <activity android:icon="@drawable/icon" android:label="Product List" android:name="ahwa.attila.ui.android.views.product.ProductListView" />
+    <activity android:label="Shopping item editor" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.shoppingitem.ShoppingItemEditView" />
+    <activity android:label="New product" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.product.ProductNewView" />
+    <activity android:icon="@drawable/icon" android:label="Market List" android:name="ahwa.attila.ui.android.views.market.MarketListView" />
+    <activity android:label="Category Info" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.category.CategroyDetailsView" />
+    <activity android:icon="@drawable/icon" android:label="Shopping item list" android:name="ahwa.attila.ui.android.views.shoppingitem.ShoppingItemListView" />
+    <activity android:label="Shopping item Info" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.shoppingitem.ShoppingItemDetailsView" />
+    <activity android:label="New category" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.category.CategoryNewView" />
+    <activity android:icon="@drawable/icon" android:label="Ahwa.Attila.UI.Android" android:noHistory="true" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="ahwa.attila.ui.android.SplashScreenActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Product Info" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.product.ProductDetailsView" />
+    <activity android:label="Category editor" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.category.CategoryEditView" />
+    <activity android:label="Product editor" android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="ahwa.attila.ui.android.views.product.ProductEditView" />
+    <activity android:icon="@drawable/icon" android:label="Category List" android:name="ahwa.attila.ui.android.views.category.CategoryListView" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ahwa.attila.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.ahwa.attila" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

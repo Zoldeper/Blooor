@@ -25,9 +25,7 @@ namespace Ahwa.Attila.Core.Android.Models
             {
                 ID = obj.ID;
                 CategoryName = obj.CategoryName;
-            }
-            else
-                base.CloneFrom(source);
+            }            
         }
 
         public override string ToString()

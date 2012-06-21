@@ -45,9 +45,7 @@ namespace Ahwa.Attila.Core.Android.Models
                 ImagePath = obj.ImagePath;
                 ProductName = obj.ProductName;
                 CategoryID = obj.CategoryID;
-            }
-            else
-                base.CloneFrom(source);
+            }            
         }
     }
 }

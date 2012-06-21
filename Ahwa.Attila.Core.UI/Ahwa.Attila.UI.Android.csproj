@@ -73,6 +73,12 @@
     <Compile Include="Views\Product\ProductDetailsView.cs" />
     <Compile Include="Views\Product\ProductListView.cs" />
     <Compile Include="Views\Product\ProductNewView.cs" />
+    <Compile Include="Views\ShoppingItem\BaseShoppingItemEditView.cs" />
+    <Compile Include="Views\ShoppingItem\ShoppingItemDetailsView.cs" />
+    <Compile Include="Views\ShoppingItem\ShoppingItemEditView.cs" />
+    <Compile Include="Views\ShoppingItem\ShoppingItemHelper.cs" />
+    <Compile Include="Views\ShoppingItem\ShoppingItemListView.cs" />
+    <Compile Include="Views\ShoppingItem\ShoppingItemNewView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -116,6 +122,18 @@
     <AndroidResource Include="Resources\Layout\ProductListView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ShoppingItemDetailsView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ShoppingItemListView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ShoppingItemEditView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ShoppingItemListItem.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Values\Strings.xml">
@@ -145,6 +163,7 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\Xml\Category.xml" />
     <AndroidAsset Include="Assets\Xml\Product.xml" />
+    <AndroidAsset Include="Assets\Xml\ShoppingItem.xml" />
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\Menu\category_add_menu.xml" />
     <AndroidResource Include="Resources\Menu\category_edit_menu.xml" />
@@ -154,6 +173,10 @@
     <AndroidResource Include="Resources\Menu\product_edit_menu.xml" />
     <AndroidResource Include="Resources\Menu\product_list_menu.xml" />
     <AndroidResource Include="Resources\Menu\product_menu.xml" />
+    <AndroidResource Include="Resources\Menu\shoppingitem_add_menu.xml" />
+    <AndroidResource Include="Resources\Menu\shoppingitem_menu.xml" />
+    <AndroidResource Include="Resources\Menu\shoppingitem_edit_menu.xml" />
+    <AndroidResource Include="Resources\Menu\shoppingitem_list_menu.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\Xml\Market.xml" />

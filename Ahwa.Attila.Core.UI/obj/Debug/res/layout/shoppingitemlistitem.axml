@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attila="http://schemas.android.com/apk/res/ahwa.attila"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <cirrious.mvvmcross.binding.android.views.MvxHttpImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="4dp"
+        attila:MvxBind="{&apos;HttpImageUrl&apos;:{&apos;Path&apos;:&apos;ImagePath&apos;, &apos;Converter&apos;:&apos;FilePath&apos;}}" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtShoppingItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="6dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="name"
+            attila:MvxBind="{&apos;Text&apos;:{&apos;Path&apos;:&apos;ShoppingItemName&apos;}}"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0asdfasdfsa"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            attila:MvxBind="{&apos;Text&apos;:{&apos;Path&apos;:&apos;Quantity&apos;}}"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="6dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ca"
+            attila:MvxBind="{&apos;Text&apos;:{&apos;Path&apos;:&apos;CategoryID&apos;, &apos;Converter&apos;: &apos;CategoryToID&apos;}}"
+            android:layout_below="@+id/txtShoppingItemName" />
+    </RelativeLayout>
+</LinearLayout>

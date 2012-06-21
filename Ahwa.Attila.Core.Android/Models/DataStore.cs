@@ -25,8 +25,7 @@ namespace Ahwa.Attila.Core.Android.Models
         private const string XmlFileName = "{0}.xml";
         private const string ImageFileName = "{0}.jpg";
         
-        private Dictionary<Type, object> containers = new Dictionary<Type, object>();
-        
+        private Dictionary<Type, object> containers = new Dictionary<Type, object>();        
 
         public DataStore()
         {
@@ -38,9 +37,11 @@ namespace Ahwa.Attila.Core.Android.Models
             containers.Add(typeof(Category), new SimpleObservableCollection<Category>(new List<Category>()));
             containers.Add(typeof(Market), new SimpleObservableCollection<Market>(new List<Market>()));
             containers.Add(typeof(Product), new SimpleObservableCollection<Product>(new List<Product>()));
+            containers.Add(typeof(ShoppingItem), new SimpleObservableCollection<ShoppingItem>(new List<ShoppingItem>()));
             Load<Market>();
             Load<Category>();
             Load<Product>();
+            Load<ShoppingItem>();
         }
 
         private void Load<T>()

@@ -3,7 +3,7 @@ using System;
 
 namespace Ahwa.Attila.Core.Android.Models
 {
-    public class DataClassBase : MvxNotifyPropertyChanged
+    public abstract class DataClassBase : MvxNotifyPropertyChanged
     {
         private string _ID;
         public string ID
@@ -22,6 +22,6 @@ namespace Ahwa.Attila.Core.Android.Models
         {
             ID = Guid.NewGuid().ToString();
         }
-        public virtual void CloneFrom(object source) { throw new NotImplementedException("Verify your source object type! The one you passed is not  suitable!"); }    
+        public abstract void CloneFrom(object source);
     }
 }

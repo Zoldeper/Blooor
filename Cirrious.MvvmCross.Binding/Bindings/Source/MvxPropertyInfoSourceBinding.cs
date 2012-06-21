@@ -14,14 +14,19 @@ using System.Threading;
 using Cirrious.MvvmCross.Binding.Interfaces.Bindings.Source;
 using Cirrious.MvvmCross.ExtensionMethods;
 using Cirrious.MvvmCross.Interfaces.Platform.Diagnostics;
+using Cirrious.MvvmCross.Interfaces.Views;
+using Cirrious.MvvmCross.Interfaces.ServiceProvider;
 
 namespace Cirrious.MvvmCross.Binding.Bindings.Source
 {
-    public class MvxPropertyInfoSourceBinding : MvxBasePropertyInfoSourceBinding
+    public class MvxPropertyInfoSourceBinding : MvxBasePropertyInfoSourceBinding, IMvxServiceConsumer<IMvxViewDispatcherProvider>
     {
+        private string _PropertyName;
+
         public MvxPropertyInfoSourceBinding(object source, string propertyName)
             : base(source, propertyName)
         {
+            this._PropertyName = propertyName;
         }
 
         public override Type SourceType
@@ -69,7 +74,16 @@ namespace Cirrious.MvvmCross.Binding.Bindings.Source
 
             try
             {
-                PropertyInfo.SetValue(Source, value, null);
+             this.GetService<IMvxViewDispatcherProvider>().Dispatcher.RequestMainThreadAction(()=>
+                 {
+                     if (PropertyInfo.PropertyType.IsGenericType && PropertyInfo.PropertyType.IsValueType)
+                     {
+                         var underlyingType = Nullable.GetUnderlyingType(PropertyInfo.PropertyType);
+                         PropertyInfo.SetValue(Source, Convert.ChangeType(value, underlyingType), null);
+                     }
+                     else
+                         PropertyInfo.SetValue(Source, value, null);
+                 });
             }
             catch (ThreadAbortException)
             {

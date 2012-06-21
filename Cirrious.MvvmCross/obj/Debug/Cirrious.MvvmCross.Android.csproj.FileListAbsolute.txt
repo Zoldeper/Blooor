@@ -23,3 +23,14 @@ C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross\obj\Debug\uploadflags.txt
 C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross\bin\Debug\Newtonsoft.Json.MonoDroid.dll
 C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross\bin\Debug\Newtonsoft.Json.MonoDroid.pdb
 C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross\bin\Debug\Newtonsoft.Json.MonoDroid.dll.mdb
+C:\Projects\Blooor\Cirrious.MvvmCross\bin\Debug\Cirrious.MvvmCross.Android.dll
+C:\Projects\Blooor\Cirrious.MvvmCross\bin\Debug\Cirrious.MvvmCross.Android.pdb
+C:\Projects\Blooor\Cirrious.MvvmCross\bin\Debug\Cirrious.MvvmCross.Android.dll.mdb
+C:\Projects\Blooor\Cirrious.MvvmCross\bin\Debug\Cirrious.MvvmCross.Android.apk
+C:\Projects\Blooor\Cirrious.MvvmCross\bin\Debug\Cirrious.MvvmCross.Android-Signed.apk
+C:\Projects\Blooor\Cirrious.MvvmCross\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Blooor\Cirrious.MvvmCross\obj\Debug\Cirrious.MvvmCross.Android.dll
+C:\Projects\Blooor\Cirrious.MvvmCross\obj\Debug\Cirrious.MvvmCross.Android.pdb
+C:\Projects\Blooor\Cirrious.MvvmCross\obj\Debug\android\bin\Cirrious.MvvmCross.Android.apk
+C:\Projects\Blooor\Cirrious.MvvmCross\obj\Debug\R.cs.flag
+C:\Projects\Blooor\Cirrious.MvvmCross\obj\Debug\uploadflags.txt

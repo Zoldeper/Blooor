@@ -26,3 +26,14 @@ C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Cirrious.M
 C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Cirrious.MvvmCross.Android.dll.mdb
 C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Newtonsoft.Json.MonoDroid.pdb
 C:\Projects\Attila\Blooor\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Newtonsoft.Json.MonoDroid.dll.mdb
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Cirrious.MvvmCross.Binding.Android.dll
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Cirrious.MvvmCross.Binding.Android.pdb
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Cirrious.MvvmCross.Binding.Android.dll.mdb
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Cirrious.MvvmCross.Binding.Android.apk
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\bin\Debug\Cirrious.MvvmCross.Binding.Android-Signed.apk
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\obj\Debug\Cirrious.MvvmCross.Binding.Android.dll
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\obj\Debug\Cirrious.MvvmCross.Binding.Android.pdb
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\obj\Debug\android\bin\Cirrious.MvvmCross.Binding.Android.apk
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\obj\Debug\R.cs.flag
+C:\Projects\Blooor\Cirrious.MvvmCross.Binding\obj\Debug\uploadflags.txt

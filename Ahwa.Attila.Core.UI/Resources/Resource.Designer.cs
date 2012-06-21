@@ -55,50 +55,68 @@ namespace Ahwa.Attila.UI.Android
 			// aapt resource value: 0x7f040000
 			public const int MvxBindingTagUnique = 2130968576;
 			
-			// aapt resource value: 0x7f040003
-			public const int add_category = 2130968579;
-			
-			// aapt resource value: 0x7f040009
-			public const int add_market = 2130968585;
-			
-			// aapt resource value: 0x7f04000e
-			public const int add_product = 2130968590;
-			
-			// aapt resource value: 0x7f040006
-			public const int change_category = 2130968582;
+			// aapt resource value: 0x7f040004
+			public const int add_category = 2130968580;
 			
 			// aapt resource value: 0x7f04000b
-			public const int change_market = 2130968587;
-			
-			// aapt resource value: 0x7f04000f
-			public const int change_product = 2130968591;
-			
-			// aapt resource value: 0x7f040007
-			public const int delete_category = 2130968583;
-			
-			// aapt resource value: 0x7f04000c
-			public const int delete_market = 2130968588;
+			public const int add_market = 2130968587;
 			
 			// aapt resource value: 0x7f040010
-			public const int delete_product = 2130968592;
+			public const int add_product = 2130968592;
 			
-			// aapt resource value: 0x7f04000a
-			public const int list_category = 2130968586;
-			
-			// aapt resource value: 0x7f040005
-			public const int list_market = 2130968581;
-			
-			// aapt resource value: 0x7f040004
-			public const int list_product = 2130968580;
-			
-			// aapt resource value: 0x7f040002
-			public const int save_category = 2130968578;
+			// aapt resource value: 0x7f040014
+			public const int add_shoppingitem = 2130968596;
 			
 			// aapt resource value: 0x7f040008
-			public const int save_market = 2130968584;
+			public const int change_category = 2130968584;
 			
 			// aapt resource value: 0x7f04000d
-			public const int save_product = 2130968589;
+			public const int change_market = 2130968589;
+			
+			// aapt resource value: 0x7f040011
+			public const int change_product = 2130968593;
+			
+			// aapt resource value: 0x7f040015
+			public const int change_shoppingitem = 2130968597;
+			
+			// aapt resource value: 0x7f040009
+			public const int delete_category = 2130968585;
+			
+			// aapt resource value: 0x7f04000e
+			public const int delete_market = 2130968590;
+			
+			// aapt resource value: 0x7f040012
+			public const int delete_product = 2130968594;
+			
+			// aapt resource value: 0x7f040016
+			public const int delete_shoppingitem = 2130968598;
+			
+			// aapt resource value: 0x7f04000c
+			public const int list_category = 2130968588;
+			
+			// aapt resource value: 0x7f040006
+			public const int list_market = 2130968582;
+			
+			// aapt resource value: 0x7f040005
+			public const int list_product = 2130968581;
+			
+			// aapt resource value: 0x7f040007
+			public const int list_shoppingitem = 2130968583;
+			
+			// aapt resource value: 0x7f040003
+			public const int save_category = 2130968579;
+			
+			// aapt resource value: 0x7f04000a
+			public const int save_market = 2130968586;
+			
+			// aapt resource value: 0x7f04000f
+			public const int save_product = 2130968591;
+			
+			// aapt resource value: 0x7f040013
+			public const int save_shoppingitem = 2130968595;
+			
+			// aapt resource value: 0x7f040002
+			public const int txtShoppingItemName = 2130968578;
 			
 			private Id()
 			{
@@ -145,7 +163,19 @@ namespace Ahwa.Attila.UI.Android
 			public const int ProductListView = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int SplashScreen = 2130903052;
+			public const int ShoppingItemDetailsView = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int ShoppingItemEditView = 2130903053;
+			
+			// aapt resource value: 0x7f03000e
+			public const int ShoppingItemListItem = 2130903054;
+			
+			// aapt resource value: 0x7f03000f
+			public const int ShoppingItemListView = 2130903055;
+			
+			// aapt resource value: 0x7f030010
+			public const int SplashScreen = 2130903056;
 			
 			private Layout()
 			{
@@ -190,6 +220,18 @@ namespace Ahwa.Attila.UI.Android
 			
 			// aapt resource value: 0x7f06000b
 			public const int product_menu = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int shoppingitem_add_menu = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int shoppingitem_edit_menu = 2131099661;
+			
+			// aapt resource value: 0x7f06000e
+			public const int shoppingitem_list_menu = 2131099662;
+			
+			// aapt resource value: 0x7f06000f
+			public const int shoppingitem_menu = 2131099663;
 			
 			private Menu()
 			{
@@ -241,6 +283,15 @@ namespace Ahwa.Attila.UI.Android
 			// aapt resource value: 0x7f05001c
 			public const int label_product_takepicturebutton = 2131034140;
 			
+			// aapt resource value: 0x7f050024
+			public const int label_shoppingitem_category = 2131034148;
+			
+			// aapt resource value: 0x7f050023
+			public const int label_shoppingitem_name = 2131034147;
+			
+			// aapt resource value: 0x7f050025
+			public const int label_shoppingitem_quantity = 2131034149;
+			
 			// aapt resource value: 0x7f05000b
 			public const int label_show_on_map = 2131034123;
 			
@@ -253,6 +304,9 @@ namespace Ahwa.Attila.UI.Android
 			// aapt resource value: 0x7f050013
 			public const int menu_add_product = 2131034131;
 			
+			// aapt resource value: 0x7f05001e
+			public const int menu_add_shoppingitem = 2131034142;
+			
 			// aapt resource value: 0x7f05000f
 			public const int menu_change_category = 2131034127;
 			
@@ -261,6 +315,9 @@ namespace Ahwa.Attila.UI.Android
 			
 			// aapt resource value: 0x7f050015
 			public const int menu_change_product = 2131034133;
+			
+			// aapt resource value: 0x7f050020
+			public const int menu_change_shoppingitem = 2131034144;
 			
 			// aapt resource value: 0x7f050010
 			public const int menu_delete_category = 2131034128;
@@ -271,6 +328,9 @@ namespace Ahwa.Attila.UI.Android
 			// aapt resource value: 0x7f050016
 			public const int menu_delete_product = 2131034134;
 			
+			// aapt resource value: 0x7f050021
+			public const int menu_delete_shoppingitem = 2131034145;
+			
 			// aapt resource value: 0x7f050011
 			public const int menu_list_category = 2131034129;
 			
@@ -280,6 +340,9 @@ namespace Ahwa.Attila.UI.Android
 			// aapt resource value: 0x7f050017
 			public const int menu_list_product = 2131034135;
 			
+			// aapt resource value: 0x7f050022
+			public const int menu_list_shoppingitem = 2131034146;
+			
 			// aapt resource value: 0x7f05000e
 			public const int menu_save_category = 2131034126;
 			
@@ -288,6 +351,9 @@ namespace Ahwa.Attila.UI.Android
 			
 			// aapt resource value: 0x7f050014
 			public const int menu_save_product = 2131034132;
+			
+			// aapt resource value: 0x7f05001f
+			public const int menu_save_shoppingitem = 2131034143;
 			
 			private String()
 			{

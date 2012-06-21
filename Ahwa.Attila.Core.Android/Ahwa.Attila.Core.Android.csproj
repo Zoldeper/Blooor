@@ -86,6 +86,11 @@
     <Compile Include="ViewModels\ProductViewModels\EditProductViewModel.cs" />
     <Compile Include="ViewModels\ProductViewModels\NewProductViewModel.cs" />
     <Compile Include="ViewModels\ProductViewModels\ProductListViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingItemViewModels\BaseEditShoppingItemViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingItemViewModels\DetailsShoppingItemViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingItemViewModels\EditShoppingItemViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingItemViewModels\NewShoppingItemViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingItemViewModels\ShoppingItemListViewModel.cs" />
     <Compile Include="ViewModels\SimpleTextPropertyViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +111,7 @@
       <Name>Newtonsoft.Json.MonoDroid</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

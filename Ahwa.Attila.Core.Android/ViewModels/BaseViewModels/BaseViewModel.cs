@@ -7,6 +7,7 @@ using Cirrious.MvvmCross.Commands;
 using Ahwa.Attila.Core.Android.ViewModels.MarketViewModels;
 using Ahwa.Attila.Core.Android.ViewModels.CategoryViewModels;
 using Ahwa.Attila.Core.Android.ViewModels.ProductViewModels;
+using Ahwa.Attila.Core.Android.ViewModels.ShoppingItemViewModels;
 
 namespace Ahwa.Attila.Core.Android.ViewModels.BaseViewModels
 {
@@ -47,6 +48,17 @@ namespace Ahwa.Attila.Core.Android.ViewModels.BaseViewModels
                 return new MvxRelayCommand(() =>
                 {
                     RequestNavigate<ProductListViewModel>();
+                });
+            }
+        }
+
+        public MvxRelayCommand NavigateToShoppingItemListViewModel
+        {
+            get
+            {
+                return new MvxRelayCommand(() =>
+                {
+                    RequestNavigate<ShoppingItemListViewModel>();
                 });
             }
         }

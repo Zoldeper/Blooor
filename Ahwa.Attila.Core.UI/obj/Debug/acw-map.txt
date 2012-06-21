@@ -4,11 +4,16 @@ Ahwa.Attila.UI.Android.Views.Market.BaseMarketEditView`1;ahwa.attila.ui.android.
 Ahwa.Attila.UI.Android.Views.Market.MarketNewView;ahwa.attila.ui.android.views.market.MarketNewView
 Ahwa.Attila.UI.Android.Views.Market.MarketEditView;ahwa.attila.ui.android.views.market.MarketEditView
 Ahwa.Attila.UI.Android.Views.Market.MarketDetailsView;ahwa.attila.ui.android.views.market.MarketDetailsView
+Ahwa.Attila.UI.Android.Views.ShoppingItem.BaseShoppingItemEditView`1;ahwa.attila.ui.android.views.shoppingitem.BaseShoppingItemEditView_1
+Ahwa.Attila.UI.Android.Views.ShoppingItem.ShoppingItemNewView;ahwa.attila.ui.android.views.shoppingitem.ShoppingItemNewView
 Ahwa.Attila.UI.Android.Views.Product.ProductListView;ahwa.attila.ui.android.views.product.ProductListView
 Ahwa.Attila.UI.Android.Views.Product.BaseProductEditView`1;ahwa.attila.ui.android.views.product.BaseProductEditView_1
+Ahwa.Attila.UI.Android.Views.ShoppingItem.ShoppingItemEditView;ahwa.attila.ui.android.views.shoppingitem.ShoppingItemEditView
 Ahwa.Attila.UI.Android.Views.Product.ProductNewView;ahwa.attila.ui.android.views.product.ProductNewView
 Ahwa.Attila.UI.Android.Views.Market.MarketListView;ahwa.attila.ui.android.views.market.MarketListView
 Ahwa.Attila.UI.Android.Views.Category.CategroyDetailsView;ahwa.attila.ui.android.views.category.CategroyDetailsView
+Ahwa.Attila.UI.Android.Views.ShoppingItem.ShoppingItemListView;ahwa.attila.ui.android.views.shoppingitem.ShoppingItemListView
+Ahwa.Attila.UI.Android.Views.ShoppingItem.ShoppingItemDetailsView;ahwa.attila.ui.android.views.shoppingitem.ShoppingItemDetailsView
 Ahwa.Attila.UI.Android.Views.Category.CategoryNewView;ahwa.attila.ui.android.views.category.CategoryNewView
 Ahwa.Attila.UI.Android.SplashScreenActivity;ahwa.attila.ui.android.SplashScreenActivity
 Ahwa.Attila.UI.Android.Views.Product.ProductDetailsView;ahwa.attila.ui.android.views.product.ProductDetailsView

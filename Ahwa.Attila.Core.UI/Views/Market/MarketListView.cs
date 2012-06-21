@@ -23,16 +23,7 @@ namespace Ahwa.Attila.UI.Android.Views.Market
             {
                 case Resource.Id.add_market:
                     AddMarket();                    
-                    return true;
-                case Resource.Id.list_category:
-                    ViewModel.NavigateToCategoryListViewModel.Execute();
-                    return true;
-                case Resource.Id.list_product:
-                    ViewModel.NavigateToProductListViewModel.Execute();
-                    return true;
-                case Resource.Id.list_market:
-                    ViewModel.NavigateToMarketListViewModel.Execute();
-                    return true;
+                    return true;                
             }
             return base.OnOptionsItemSelected(item);
         }

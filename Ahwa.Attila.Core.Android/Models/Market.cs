@@ -44,9 +44,7 @@ namespace Ahwa.Attila.Core.Android.Models
                 Longitude = obj.Longitude;
                 Latitude = obj.Latitude;
                 MarketName = obj.MarketName;
-            }
-            else
-                base.CloneFrom(source);
+            }            
         }
     }
 }

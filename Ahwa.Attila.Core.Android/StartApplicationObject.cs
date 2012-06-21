@@ -2,6 +2,7 @@ using Ahwa.Attila.Core.Android.ViewModels.MarketViewModels;
 using Cirrious.MvvmCross.Interfaces.ViewModels;
 using Cirrious.MvvmCross.ViewModels;
 using Ahwa.Attila.Core.Android.ViewModels.ProductViewModels;
+using Ahwa.Attila.Core.Android.ViewModels.ShoppingItemViewModels;
 
 namespace Ahwa.Attila.Core.Android
 {
@@ -11,7 +12,7 @@ namespace Ahwa.Attila.Core.Android
     {
         public void Start()
         {
-            this.RequestNavigate<ProductListViewModel>();
+            this.RequestNavigate<NewShoppingItemViewModel>();
         }
 
         public bool ApplicationCanOpenBookmarks
